@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    background: rgba(255, 144, 14, 0.10);
+    padding: 10px;
+}
+        /* This is header section  */
+.g3-architects{
+    width: 80%;
+    margin: 40px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #474747;
+    padding: 0 18px;
+}
+nav > h3{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+    /* this is header text section  */
