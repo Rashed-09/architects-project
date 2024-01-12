@@ -38,3 +38,34 @@ nav > h3{
 }
 
     /* this is header text section  */
+
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+
+}
+.title1, .title2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.title-paragraph{
+    width: 52%;
+    margin: 10px auto;
+}
+.btn{
+    /* width: 100px; */
+    margin: 19px auto;
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
