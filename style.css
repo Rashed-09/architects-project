@@ -69,3 +69,9 @@ nav > h3{
     font-size: 20px;
     border: none;
 }
+
+/* this is picture section  */
+
+.banner > img{
+    width: 100%;
+}
