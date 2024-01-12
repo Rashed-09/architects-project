@@ -15,6 +15,7 @@
 .g3-architects{
     width: 80%;
     margin: 40px auto;
+    
 }
 nav{
     display: flex;
@@ -52,6 +53,8 @@ nav > h3{
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    font-size: 38px;
+    font-weight: 700;
 }
 .title-paragraph{
     width: 52%;
@@ -74,4 +77,35 @@ nav > h3{
 
 .banner > img{
     width: 100%;
+}
+
+/* this is discussion section  */
+.discussion{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+
+}
+.discussion-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+.discussion-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    /* align-items: center; */
+    justify-content: center;
+}
+.discussion-text h2{
+    font-size: 30px;
+    margin-bottom: 16px;
+    width: 300px;
+}
+.gray{
+    color: gray;
+}
+.tomato{
+    color: #FF900E;
 }
