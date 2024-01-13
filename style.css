@@ -221,4 +221,23 @@ nav > h3{
 .description p{
     color: gray;
 }
+                    /* sponsored title  */
 
+.sponsored-title{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.sponsored-title h3{
+    justify-content: center;
+    display: flex;
+    font-size: 28px;
+}
+.sponsored-title p{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #424242;
+}
